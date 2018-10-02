@@ -52,8 +52,8 @@ private Button btnnextpage, btntoast, btnalert;
         TextView textview = (TextView)findViewById(R.id.tv);
         String msg = textview.getText().toString();
 
-        btnalert = (Button)findViewById(R.id.btnalert);
-        btnalert.setOnClickListener(new Button.OnClickListener(){
+        btntoast = (Button)findViewById(R.id.btntoast);
+        btntoast.setOnClickListener(new Button.OnClickListener(){
             @Override
             public void onClick(View v) {
                 Toast.makeText(Practice1001.this, "토스트입니다.", Toast.LENGTH_LONG).show();
@@ -64,7 +64,7 @@ private Button btnnextpage, btntoast, btnalert;
         btnalert.setOnClickListener(new Button.OnClickListener(){
             @Override
             public void onClick(View v) {
-                new AlertDialog.Builder(Practice1001.this).setMessage("대화상자입니다.").setTitle("알").setPositiveButton("종료", new DialogInterface.OnClickListener() {
+                new AlertDialog.Builder(Practice1001.this).setMessage("대화상자입니다.").setTitle("알림").setPositiveButton("종료", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         finish();
@@ -74,7 +74,6 @@ private Button btnnextpage, btntoast, btnalert;
         });
 
         btnnextpage = (Button)findViewById(R.id.btnnextpage);
-
 
         btnnextpage.setOnClickListener(new Button.OnClickListener(){
             @Override

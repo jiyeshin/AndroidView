@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kralphabet">
+        <item>가가가</item>
+        <item>나나나</item>
+        <item>다다다</item>
+        <item>라라라</item>
+        <item>마마마</item>
+        <item>바바바</item>
+        <item>사사사</item>
+        <item>아아아</item>
+        <item>자자자</item>
+        <item>차차차</item>
+    </string-array>
+
+</resources>
